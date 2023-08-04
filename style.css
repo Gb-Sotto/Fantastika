@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #252525;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    height: 10vh;
+}
+
+.hed-1 {
+    margin-left: 10vw;
+    display: flex;
+    align-items: center;
+    width: 10vw;
+    justify-content: space-between;
+}
+
+.hed-1 img {
+    height: 50px;
+}
+
+.hed-2 {
+    margin-right: 10vw;
+    display: flex;
+    align-items: center;
+    width: 10vw;
+    justify-content: space-between;
+}
+
+main {
+    align-items: center;
+}
+
+.cnt-1 {
+    background-image: url(assets/back-cnt-1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    height: 90vh;
+    font-size: 70px;
+    text-align: center;
+    color: #fff;
+}
+
+.cnt-1 img {
+    height: 200px;
+}
+
+.cnt-2 {
+    background-image: url(assets/back-cnt-3.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    height: 90vh;
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: #3A342F;
+}
+
+.cnt-2 div {
+    width: 50vw;
+    text-align: left;
+    margin-top: 10vw;
+}
+
+.cnt-2 button {
+
+    width: 20vw;
+    padding: 30px;
+    border-radius: 50px;
+    color: #fff;
+    background: #3A342F;
+    border: none;
+    font-size: 30px;
+
+
+}
+
+.cnt-3 {
+    background-image: url(assets/back-cnt-2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    height: 90vh;
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: #FFFFFF;
+}
+
+.cnt-3 div {
+    text-align: right;
+    width: 40vw;
+    margin-top: 10vw;
+}
+
+.cnt-3 button {
+    width: 20vw;
+    padding: 30px;
+    border-radius: 50px;
+    color: #333;
+    background: #fff;
+    border: none;
+    font-size: 30px;
+}
+
+.cnt-4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+
+}
+
+footer {
+
+    display: flex;
+    justify-content: space-around;
+    height: 30vh;
+    background-color: #EB4A7B;
+    color: #fff;
+
+}
+
+footer section {
+    display: flex;
+    justify-content: space-around;
+    width: 50vw;
+
+}
+
+footer ul,
+li,
+a {
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    padding: 2px;
+
+}
